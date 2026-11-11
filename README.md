@@ -5,6 +5,8 @@ laptop webcam: OpenCV reads the webcam, DeepFace finds the face and scores 7 exp
 recognized expression becomes a simple trajectory on `/cmd_vel`. Simulation from
 [bài 04](https://github.com/Khanhkhan1/turtlebot4_bai04); no map or Nav2.
 
+**Video demo:** https://drive.google.com/file/d/1-AInoUOM27dgqxrS_jsgo4yKJa0Jn9bo/view?usp=sharing
+
 ```
 webcam --OpenCV--> emotion_recognition_node (DeepFace: SSD face detector + emotion CNN,
        smoothing + debounce) --/detected_emotion (std_msgs/String, 10 Hz)--> robot_behavior_node
